@@ -41,4 +41,4 @@ jobs:
           docker push ${{ secrets.DOCKER_USERNAME }}/udagram-frontend:v1
 
           docker build -t ${{ secrets.DOCKER_USERNAME }}/reverseproxy:v1 ./udagram-reverseproxy
-          docker push ${{ secrets.DOCKER_USERNAME }}/udagram-reverseproxy:v1
+          docker push ${{ secrets.DOCKER_USERNAME }}/reverseproxy:v1
